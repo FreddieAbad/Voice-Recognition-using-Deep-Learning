@@ -1,5 +1,27 @@
 # Voice Recognition
+### English Version
+## File Architecture and Description
+`. / spoken_numbers_wav / *` Dataset spectrograms (train & test)
 
+`. / tmp / tmp / *` Temporary Folder
+
+`. / cnn_model.py` Trained CNN models
+
+`. / extract_features_img.py` Script to produce Spectrograms
+
+`. / generate_tr.py` Script to record voice
+ 
+  `. / trimmer.py` Script to get 1 sec files
+ 
+  `. / recorder.py` Script for real-time voice recognition
+ 
+  `. / Recorder_GUI.py` GUI for` recorder.py`
+
+  `. / splitTestTranDirectories.py` Script to separate Spectrograms between Train-Test
+  
+  `. / Recorder_GUI.py` GUI for` recorder.py`
+
+### Version en Español
 ## File Architecture and Description
 `./spoken_numbers_wav/*`   Espectrogramas del dataset (train & test)
 
